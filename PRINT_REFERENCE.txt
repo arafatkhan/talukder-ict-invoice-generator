@@ -1,0 +1,118 @@
+╔═══════════════════════════════════════════════════════════╗
+║          🖨️ QUICK PRINT REFERENCE CARD                   ║
+║       দ্রুত প্রিন্ট রেফারেন্স কার্ড                      ║
+╚═══════════════════════════════════════════════════════════╝
+
+┌───────────────────────────────────────────────────────────┐
+│  📋 PERFECT PDF OUTPUT IN 3 STEPS                         │
+│      ৩ ধাপে নিখুঁত PDF আউটপুট                            │
+└───────────────────────────────────────────────────────────┘
+
+STEP 1: Click 🖨️ Print Invoice or Press Ctrl+P
+        🖨️ প্রিন্ট ইনভয়েস ক্লিক করুন অথবা Ctrl+P চাপুন
+
+STEP 2: Print Dialog Settings / প্রিন্ট ডায়ালগ সেটিংস
+        ┌─────────────────────────────────────────┐
+        │ Destination:    [Save as PDF]     ✅    │
+        │ Paper size:     [A4]              ✅    │
+        │ Layout:         [Portrait]        ✅    │
+        │ Scale:          [100%]            ✅    │
+        │                                         │
+        │ ⚠️ MOST IMPORTANT / সবচেয়ে গুরুত্বপূর্ণ │
+        │ Options:                                │
+        │   ☑️ Background graphics  ← ENABLE!    │
+        │      (এটি অবশ্যই চেক করুন!)            │
+        └─────────────────────────────────────────┘
+
+STEP 3: Click [Save] / [সংরক্ষণ] ক্লিক করুন
+        ✅ Perfect PDF Ready! / নিখুঁত PDF প্রস্তুত!
+
+┌───────────────────────────────────────────────────────────┐
+│  🎨 WHAT YOU'LL GET IN PDF / PDF এ কী পাবেন              │
+└───────────────────────────────────────────────────────────┘
+
+✅ Logo on LEFT / বামে লোগো
+✅ Company info on RIGHT / ডানে কোম্পানি তথ্য
+   ├─ TALUKDER ICT FIRM
+   ├─ Address: Old Bus Stand, Tangail
+   ├─ Phone: +880 1776089944
+   ├─ Email: arafatkhanju@gmail.com
+   ├─ Website: github.com/arafatkhan
+   └─ Trade License: TL-123456789
+
+✅ All COLORS preserved / সব রঙ সংরক্ষিত
+   ├─ Blue headers (table) 🔵
+   ├─ Blue grand total 🔵
+   ├─ Red due amount 🔴
+   ├─ Yellow amount-in-words 🟡
+   └─ Gray/Green highlights 🟢
+
+✅ Professional layout / পেশাদার লেআউট
+   ├─ Two-column sections
+   ├─ Clean borders
+   ├─ Proper alignment
+   └─ No buttons (hidden automatically)
+
+┌───────────────────────────────────────────────────────────┐
+│  ⚠️ COMMON MISTAKE / সাধারণ ভুল                          │
+└───────────────────────────────────────────────────────────┘
+
+❌ WRONG: Background graphics DISABLED
+   Result: No colors, plain black & white
+   ফলাফল: কোনো রঙ নেই, শুধু সাদা-কালো
+
+✅ CORRECT: Background graphics ENABLED ☑️
+   Result: Perfect colorful PDF with design
+   ফলাফল: ডিজাইন সহ নিখুঁত রঙিন PDF
+
+┌───────────────────────────────────────────────────────────┐
+│  🚨 TROUBLESHOOTING / সমস্যা সমাধান                       │
+└───────────────────────────────────────────────────────────┘
+
+Problem: Colors not showing / রঙ দেখাচ্ছে না
+Solution: Enable "Background graphics" ✅
+
+Problem: Layout broken / লেআউট ভাঙা
+Solution: Scale = 100%, Margins = Default ✅
+
+Problem: Logo doesn't appear / লোগো দেখা যাচ্ছে না
+Solution: Add talukder-ict.jpg to images/ folder ✅
+
+Problem: Buttons showing in PDF / PDF তে বাটন দেখাচ্ছে
+Solution: This shouldn't happen! Check print.css ⚠️
+
+┌───────────────────────────────────────────────────────────┐
+│  💡 PRO TIP / প্রো টিপ                                    │
+└───────────────────────────────────────────────────────────┘
+
+Before printing final PDF:
+1. Fill ALL information completely
+2. Review on screen (looks good = PDF will look good)
+3. Press Ctrl+P for print preview
+4. Check colors in preview
+5. If preview looks good → Save PDF ✅
+
+┌───────────────────────────────────────────────────────────┐
+│  📱 BROWSER RECOMMENDATION / ব্রাউজার সুপারিশ             │
+└───────────────────────────────────────────────────────────┘
+
+🥇 Best:   Google Chrome
+🥈 Great:  Microsoft Edge
+🥉 Good:   Firefox
+⛔ Avoid:  Internet Explorer (outdated)
+
+┌───────────────────────────────────────────────────────────┐
+│  📄 PDF WILL LOOK EXACTLY LIKE SCREEN DESIGN!             │
+│     PDF ঠিক স্ক্রীন ডিজাইনের মতো দেখাবে!                 │
+└───────────────────────────────────────────────────────────┘
+
+╔═══════════════════════════════════════════════════════════╗
+║  ✅ Updated: March 6, 2026                                ║
+║  📧 Support: arafatkhanju@gmail.com                       ║
+║  🌐 GitHub: github.com/arafatkhan                         ║
+╚═══════════════════════════════════════════════════════════╝
+
+═══════════════════════════════════════════════════════════
+    QUICK ACCESS: Open PDF_GUIDE.md for detailed guide
+    দ্রুত অ্যাক্সেস: বিস্তারিত গাইডের জন্য PDF_GUIDE.md খুলুন
+═══════════════════════════════════════════════════════════

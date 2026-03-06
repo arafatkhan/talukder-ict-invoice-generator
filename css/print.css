@@ -1,0 +1,377 @@
+/* Print Styles */
+@media print {
+    body {
+        background: white;
+        padding: 0;
+        margin: 0;
+    }
+
+    .container {
+        max-width: 100%;
+        margin: 0;
+    }
+
+    .invoice {
+        box-shadow: none;
+        padding: 20px;
+        border-radius: 0;
+    }
+
+    /* Hide elements not needed in print */
+    .no-print,
+    .action-buttons,
+    .btn,
+    .btn-delete {
+        display: none !important;
+    }
+
+    /* Hide unnecessary columns */
+    .items-table th:last-child,
+    .items-table td:last-child {
+        display: none;
+    }
+
+    /* Optimize for print */
+    .company-header {
+        page-break-after: avoid;
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: space-between !important;
+        align-items: flex-start !important;
+        gap: 20px !important;
+        margin-bottom: 20px !important;
+    }
+
+    .logo-section {
+        flex: 0 0 180px !important;
+        display: block !important;
+    }
+
+    .company-logo {
+        max-width: 160px !important;
+        height: auto !important;
+        display: block !important;
+    }
+
+    .company-info {
+        flex: 1 !important;
+        text-align: right !important;
+    }
+
+    .items-section {
+        page-break-inside: avoid;
+    }
+
+    .calculation-section {
+        page-break-inside: avoid;
+    }
+
+    .signature-section {
+        page-break-before: avoid;
+    }
+
+    /* Make inputs look like text */
+    input,
+    select,
+    textarea {
+        border: none !important;
+        background: transparent !important;
+        padding: 2px !important;
+        font-size: 13px !important;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+    }
+
+    /* Adjust font sizes for print */
+    .company-name {
+        font-size: 28px;
+    }
+
+    .company-details {
+        font-size: 11px;
+        line-height: 1.6;
+    }
+
+    .divider {
+        border: none !important;
+        border-top: 2px solid #3498db !important;
+        margin: 15px 0 !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+
+    .invoice-title {
+        text-align: center !important;
+        margin: 15px 0 !important;
+    }
+
+    .invoice-title h2 {
+        font-size: 24px;
+        background: #ecf0f1 !important;
+        padding: 10px !important;
+        border-radius: 5px !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+
+    /* Preserve grid layouts in print */
+    .info-row {
+        display: grid !important;
+        grid-template-columns: 1fr 1fr !important;
+        gap: 20px !important;
+        margin-bottom: 20px !important;
+        page-break-inside: avoid;
+    }
+
+    .invoice-details,
+    .customer-details {
+        page-break-inside: avoid;
+    }
+
+    .invoice-details h3,
+    .customer-details h3 {
+        font-size: 16px !important;
+        border-bottom: 2px solid #3498db !important;
+        padding-bottom: 5px !important;
+        margin-bottom: 10px !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+
+    /* Calculation section grid */
+    .calculation-section {
+        display: grid !important;
+        grid-template-columns: 1fr 1fr !important;
+        gap: 20px !important;
+        margin: 20px 0 !important;
+        page-break-inside: avoid;
+    }
+
+    /* Terms section grid */
+    .terms-section {
+        display: grid !important;
+        grid-template-columns: 1fr 1fr !important;
+        gap: 20px !important;
+        margin: 20px 0 !important;
+        page-break-inside: avoid;
+    }
+
+    /* Signature section grid */
+    .signature-section {
+        display: grid !important;
+        grid-template-columns: 1fr 1fr !important;
+        gap: 50px !important;
+        margin: 40px 0 20px 0 !important;
+        page-break-inside: avoid;
+    }
+
+    .signature-box {
+        text-align: center !important;
+    }
+
+    .invoice-title h2 {
+        font-size: 24px;
+    }
+
+    .items-table {
+        font-size: 12px;
+        width: 100% !important;
+        border-collapse: collapse !important;
+        margin-bottom: 15px !important;
+    }
+
+    .items-table th,
+    .items-table td {
+        padding: 8px 6px;
+        border: 1px solid #ddd !important;
+    }
+
+    .items-table th {
+        text-align: left !important;
+        font-weight: 600 !important;
+    }
+
+    .items-table .serial {
+        text-align: center !important;
+        background: #ecf0f1 !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+
+    .items-table .item-total {
+        text-align: right !important;
+        font-weight: 600 !important;
+        background: #e8f5e9 !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+
+    /* Ensure colors print correctly */
+    .items-table thead {
+        background: #34495e !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+        color: white !important;
+    }
+
+    .grand-total-row {
+        background: #3498db !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+        color: white !important;
+    }
+
+    .grand-total-row td {
+        font-size: 16px !important;
+        padding: 10px 8px !important;
+        font-weight: bold !important;
+        color: white !important;
+    }
+
+    .due-amount-row {
+        background: #e74c3c !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+        color: white !important;
+    }
+
+    .due-amount-row td {
+        color: white !important;
+        font-weight: bold !important;
+    }
+
+    .calculation-table {
+        width: 100% !important;
+        border-collapse: collapse !important;
+    }
+
+    .calculation-table td {
+        padding: 6px 8px !important;
+        border: 1px solid #ddd !important;
+    }
+
+    .calculation-table td:first-child {
+        background: #f8f9fa !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+
+    .calculation-table td:last-child {
+        text-align: right !important;
+    }
+
+    .calculation-table .amount {
+        font-weight: 600 !important;
+    }
+
+    .amount-in-words {
+        background: #fff3cd !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+        padding: 12px !important;
+        margin-top: 12px !important;
+        border-left: 4px solid #ffc107 !important;
+        border-radius: 4px !important;
+    }
+
+    .amount-in-words strong {
+        display: block !important;
+        margin-bottom: 5px !important;
+        color: #856404 !important;
+    }
+
+    .amount-in-words p {
+        color: #856404 !important;
+        font-weight: 600 !important;
+        font-size: 13px !important;
+        margin: 0 !important;
+    }
+
+    .invoice-footer {
+        background: #ecf0f1 !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+
+    /* Add page break controls */
+    .page-break {
+        page-break-after: always;
+    }
+
+    .no-page-break {
+        page-break-inside: avoid;
+    }
+
+    /* Signature section alignment */
+    .signature-line {
+        border-bottom: 2px solid #333 !important;
+        height: 60px !important;
+        margin-bottom: 10px !important;
+    }
+
+    .signature-box p {
+        font-size: 13px !important;
+        margin: 5px 0 !important;
+    }
+
+    /* Footer positioning */
+    .invoice-footer {
+        margin-top: 20px;
+        text-align: center !important;
+        padding: 15px !important;
+        background: #ecf0f1 !important;
+        border-radius: 5px !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+
+    .invoice-footer p {
+        font-size: 11px !important;
+        color: #7f8c8d !important;
+        margin: 0 !important;
+        font-style: italic !important;
+    }
+
+    /* Ensure borders print */
+    table,
+    th,
+    td {
+        border: 1px solid #ddd !important;
+    }
+
+    /* Better spacing for sections */
+    .items-section h3,
+    .calculation-left h3,
+    .terms-section h4 {
+        color: #2c3e50 !important;
+        margin-bottom: 10px !important;
+    }
+}
+
+/* PDF Export Specific Styles */
+@page {
+    size: A4;
+    margin: 12mm 15mm;
+}
+
+/* Ensure proper layout even with browser differences */
+@media print {
+    * {
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+    }
+
+    /* Force proper box sizing */
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box !important;
+    }
+
+    /* Prevent content overflow */
+    body,
+    .invoice {
+        overflow: visible !important;
+    }
+}

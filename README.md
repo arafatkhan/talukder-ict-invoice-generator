@@ -6,6 +6,14 @@ A complete bilingual (Bengali-English) Invoice Generator built with HTML, CSS, a
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Version](https://img.shields.io/badge/version-1.0.0-green.svg)
 
+## 🚀 Live Demo / লাইভ ডেমো
+
+**Try it now! / এখনই ব্যবহার করুন:** 
+### 🌐 [https://arafatkhan.github.io/talukder-ict-invoice-generator/](https://arafatkhan.github.io/talukder-ict-invoice-generator/)
+
+No installation required! Open the link and start creating professional invoices instantly.  
+কোনো ইনস্টলেশন লাগবে না! লিংকটি খুলুন এবং তক্ষনাৎ পেশাদার চালান তৈরি করা শুরু করুন।
+
 ## ✨ Features / বৈশিষ্ট্য
 
 ### 🎯 Core Features
@@ -64,11 +72,18 @@ talukde-ict-invoice-generator/
 
 ## 🚀 Getting Started / শুরু করুন
 
-### Installation / ইনস্টলেশন
+### Option 1: Use Online (Recommended) / অনলাইনে ব্যবহার করুন (প্রস্তাবিত)
+
+**No installation needed!** Just visit:
+```
+🌐 https://arafatkhan.github.io/talukder-ict-invoice-generator/
+```
+
+### Option 2: Download Locally / স্থানীয়ভাবে ডাউনলোড করুন
 
 1. **Download or Clone** this repository
    ```bash
-   git clone https://github.com/yourusername/talukde-ict-invoice-generator.git
+   git clone https://github.com/arafatkhan/talukder-ict-invoice-generator.git
    ```
 
 2. **Open** `index.html` in your web browser
@@ -233,9 +248,10 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## 👨‍💻 Developer / ডেভেলপার
 
 **Talukder ICT Firm**
-- Website: www.talukderict.com
-- Email: info@talukderict.com
-- Phone: +880 1XXX-XXXXXX
+- 🌐 Website: https://arafatkhan.github.io/talukder-ict-invoice-generator/
+- 📧 Email: arafatkhanju@gmail.com
+- 📱 Phone: +880 1776089944
+- 🔗 GitHub: https://github.com/arafatkhan
 
 ## 🤝 Contributing / অবদান
 
@@ -293,9 +309,10 @@ Have an idea? Open an issue with:
 
 Need help? / সাহায্য দরকার?
 
-- 📧 Email: support@talukderict.com
-- 📱 Phone: +880 1XXX-XXXXXX
-- 🌐 Website: www.talukderict.com
+- 📧 Email: arafatkhanju@gmail.com
+- 📱 Phone: +880 1776089944
+- 🌐 Live Demo: https://arafatkhan.github.io/talukder-ict-invoice-generator/
+- 🔗 GitHub: https://github.com/arafatkhan/talukder-ict-invoice-generator
 
 ## ⭐ Show Your Support
 
